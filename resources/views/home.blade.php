@@ -29,6 +29,7 @@
             </x-slot>
             Contenido de la alterta GOOD
         </x-alert2>
-        <p>Hola causa</p>
+        <p>Hola primo</p>
+        <p>Tomorrow go a la U pal certificado XD</p>
     </div>
 @endsection
