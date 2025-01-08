@@ -29,6 +29,6 @@
             </x-slot>
             Contenido de la alterta GOOD
         </x-alert2>
-        <p>Hola Guti0414 - Tiktok</p>
+        <p>Hola Guti0414 - Instagram</p>
     </div>
 @endsection
