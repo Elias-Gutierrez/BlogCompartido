@@ -29,7 +29,6 @@
             </x-slot>
             Contenido de la alterta GOOD
         </x-alert2>
-        <p>Hola primo</p>
-        <p>Tomorrow go a la U pal certificado XD</p>
+        <p>Hola Guti0414 - Tiktok</p>
     </div>
 @endsection
