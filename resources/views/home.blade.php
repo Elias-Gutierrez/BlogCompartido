@@ -30,5 +30,7 @@
             Contenido de la alterta GOOD
         </x-alert2>
         <p>Hola Guti0414 - Instagram</p>
+        <h1>TITULO BIENVENIDO AL PROYECTO ELIAS Y CRISTIAN ESTA COLABORANDO PARA LA REALIZACION DE ESTE PROYECTO </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae labore non, ex officiis sunt atque itaque facilis dolor delectus doloremque, illum hic recusandae nemo cupiditate voluptas soluta. Debitis, asperiores accusamus!</p>
     </div>
 @endsection
