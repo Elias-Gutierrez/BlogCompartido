@@ -1,9 +1,17 @@
 <?php
 
+use App\Http\Controllers\CasasDeApuestasController;
+use App\Http\Controllers\ClienteCasaDivisaController;
+use App\Http\Controllers\DivisasController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\PersonaController;
 use App\Http\Controllers\PostController;
+use App\Models\CasasDeApuestas;
+use App\Models\ClienteCasaDivisa;
+use App\Models\Divisas;
+use App\Models\Persona;
 use App\Models\Post;
 
 use function Laravel\Prompts\select;
@@ -12,6 +20,17 @@ use function Pest\Laravel\post;
 Route::get('/', [MainController::class, 'index']);
 
 Route::resource('posts', PostController::class);
+
+//-------------------------------------------------------------------------------------------//
+Route::resource('divisas', DivisasController::class);
+
+Route::resource('personas', PersonaController::class);
+
+Route::resource('casas-de-apuestas', CasasDeApuestasController::class);
+
+Route::get('/cliente-casa-divisas', [ClienteCasaDivisaController::class, 'index'])->name('cliente-casa-divisas.index');
+//-------------------------------------------------------------------------------------------//
+
 
 Route::get('/prueba', function(){
     
